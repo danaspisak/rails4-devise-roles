@@ -13,6 +13,9 @@ gem 'bootstrap-sass'
 gem 'devise'
 gem 'devise_invitable'
 gem 'upmin-admin'
+gem 'surveyor', github: 'NUBIC/surveyor'
+gem 'surveyor_gui'
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
